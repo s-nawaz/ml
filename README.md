@@ -10,9 +10,9 @@ Information gain maetric is also claculated for comparison.
 
 python> import decision_tree as dt
 
-tree = dt.train( <training data file> )
+tree = dt.train( training_data_file )
   
 tree.print_tree()
 
-d = dt.predict( tree, <test data file> )
+d = dt.predict( tree, test_data_file )
   
