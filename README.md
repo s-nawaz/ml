@@ -1,5 +1,5 @@
-Decision Tree
-Author: Shahnawaz Alam
+#Decision Tree
+##Author: Shahnawaz Alam
 Takes a training dataset, builds a decision tree and predicts the class of test data using the learned tree.
 Training data file should be comma separated values. First column should be row id and last
 column should be class
