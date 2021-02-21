@@ -6,13 +6,21 @@ Takes a training dataset, builds a decision tree and predicts the class of test 
 Training data file should be comma separated values. First column should be row id and last
 column should be class.
 Test file should be like the training file. Class column is not required in this file.
-Data can be split using either the Information Gain metric or Classification Error
+Data can be split using the following menthods:
+(i) Information Gain
+(ii) Classification Error
+(iii) Gain Ratio
+(iv) Gini Index
 
 python> import decision_tree as dt
 
 tree = dt.train( training_data_file, 'IG' ) # for Information Gain
 
 tree = dt.train( training_data_file, 'CE' ) # for Classification Error
+
+tree = dt.train( training_data_file, 'GR' ) # for Gain Ratio
+
+tree = dt.train( training_data_file, 'Gini' ) # for Gini Index
 
 tree.print_tree()
 
