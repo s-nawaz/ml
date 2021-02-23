@@ -38,4 +38,5 @@ Predicts the class of test data based on majority class of k nearest neighbors.
 Based on matrix operations. This eliminates loops and speeds up the algorithm.
 
 python> import knn
+
 result = knn.knn( k, training_data_file, test_data_file )
