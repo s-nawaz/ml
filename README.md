@@ -1,5 +1,3 @@
-Author: Shahnawaz Alam
-
 1. Decision Tree
 
 Takes a training dataset, builds a decision tree and predicts the class of test data using the learned tree.
